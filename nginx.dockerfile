@@ -17,5 +17,4 @@ COPY index.html /data/www/index.html
 VOLUME [ "/data/www" ]
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"
-ganga]
+CMD ["nginx", "-g", "daemon off;"]
